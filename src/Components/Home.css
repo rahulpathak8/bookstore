@@ -1,18 +1,23 @@
-.card-horizontal {
-  display: flex;
-  flex: 1 1 auto;
+.welcome-txt {
+  font-family: "Tangerine", "cursive";
+  font-size: xx-large;
+  color: rgb(226, 194, 13);
+  text-shadow: 1px 1px grey;
 }
-.cardContainer {
-  width: 50%;
-  margin-top: 10px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 8px 0.1px;
+.search-box {
+  margin-left: 50%;
 }
-.cardImg {
-  max-height: 240px;
-  max-width: 160px;
+.searchBtn:hover {
+  background-color: rgb(6, 9, 37);
+  color: rgb(226, 194, 13);
 }
-.cardbody {
-  text-align: left;
-  margin-left: 5px;
-  padding-left: 4px;
+.searchBtn {
+  font-weight: 500;
+  background-color: rgb(245, 236, 197);
+  color: rgb(36, 34, 26);
+}
+.searchText {
+  font-size: x-small;
+  color: grey;
+  font-weight: 500;
 }

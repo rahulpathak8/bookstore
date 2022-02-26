@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import db from "../db.json";
+import logo from "../assets/logo2.png";
 import CardComponent from "./CardComponent";
 import "./Home.css";
 
+import { FiSearch } from "react-icons/fi";
 function Home() {
   const [filteredList, setFilteredList] = useState([]);
   const [bookList, setBookList] = useState([]);
@@ -47,11 +48,28 @@ function Home() {
 
   return (
     <div>
-      <div> Welcome to our Book Store</div>
-      <div className="icon">
-        <input placeholder="Filter" onChange={(e) => inputHandler(e)}></input>
-        <button onClick={searchHandler}>search</button>
-        <i className="search icon"></i>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          marginTop: "10px",
+          marginBottom: "12px",
+        }}
+      >
+        <div>
+          {" "}
+          <img src={logo} />
+          <div className="welcome-txt">Welcome to our Book Store</div>
+        </div>
+        <div className="icon search-box">
+          <input placeholder="Filter" onChange={(e) => inputHandler(e)}></input>
+          <button className="searchBtn" onClick={searchHandler}>
+            <FiSearch></FiSearch>
+          </button>
+          <div className="searchText">
+            search by book title,author name and price
+          </div>
+        </div>
       </div>
       <div>
         <CardComponent data={filteredList} />

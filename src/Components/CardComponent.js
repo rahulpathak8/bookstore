@@ -1,5 +1,7 @@
 import React from "react";
 import { Badge } from "react-bootstrap";
+import { FaRupeeSign } from "react-icons/fa";
+import "./CardComponent.css";
 
 const CardComponent = (props) => {
   console.log(props.data);
@@ -18,16 +20,21 @@ const CardComponent = (props) => {
                     <h4 class="cardTitle">{item.title}</h4>
                     <text className="authorName">
                       {" "}
-                      by {item.author}| {item.published}
+                      by {item.author} | published in {item.published}
                     </text>
                     <div>
-                      <text>{item.type}</text>
+                      <text className="bookType">{item.type}</text>
                     </div>
                     <div>
                       {" "}
                       <Badge bg="danger">{item.deal}</Badge>
                     </div>
-                    <div>{item.price}</div>
+                    <div className="price">
+                      {" "}
+                      <FaRupeeSign className="rupeeIcon"></FaRupeeSign>
+                      {item.price}
+                      {".00 /-"}
+                    </div>
                   </div>
                 </div>
               </div>
