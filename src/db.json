@@ -1,0 +1,92 @@
+{
+    "books":[
+        {
+            "id":"1",
+            "title":"Think and Grow rich",
+            "author":"Nepolian Hill",
+            "published":"2018-12-04",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://5.imimg.com/data5/WP/NG/MY-11183377/think-and-grow-rich-500x500.png"
+        },
+        {
+            "id":"2",
+            "title":"Atomic Habits",
+            "author":"James Clear",
+            "published":"2020-10-10",
+            "price":"229",
+            "deal":"Limited time deal",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://miro.medium.com/max/1400/1*q_ca6R_S8V1vlaGCc_VQxw.png"
+        },
+        {
+            "id":"3",
+            "title":"Psychology of Money",
+            "author":"Morgan Housel",
+            "published":"2020-03-06",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://www.ajayonlinestall.com/wp-content/uploads/2021/02/9789390166268.png"
+        },
+        {
+            "id":"4",
+            "title":"Four hour work week",
+            "author":"Timmothy Feriss",
+            "published":"2002-11-24",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://target.scene7.com/is/image/Target/GUEST_06781cb0-796e-4d7f-a499-2a261c53a965?wid=488&hei=488&fmt=pjpeg"
+        },
+        {
+            "id":"5",
+            "title":"How to win friends and influence people",
+            "author":"Dale Canrige",
+            "published":"2018-12-04",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://images-na.ssl-images-amazon.com/images/I/61bfGzdMr2L.jpg"
+        },
+        {
+            "id":"1",
+            "title":"Think and Grow rich",
+            "author":"Nepolian Hill",
+            "published":"2018-12-04",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://5.imimg.com/data5/WP/NG/MY-11183377/think-and-grow-rich-500x500.png"
+        },
+        {
+            "id":"1",
+            "title":"Think and Grow rich",
+            "author":"Nepolian Hill",
+            "published":"2018-12-04",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://5.imimg.com/data5/WP/NG/MY-11183377/think-and-grow-rich-500x500.png"
+        },
+        {
+            "id":"1",
+            "title":"Think and Grow rich",
+            "author":"Nepolian Hill",
+            "published":"2018-12-04",
+            "price":"288",
+            "deal":"Deal of the day",
+            "type":"paperback",
+            "pages":472,
+            "img":"https://5.imimg.com/data5/WP/NG/MY-11183377/think-and-grow-rich-500x500.png"
+        }
+    ]
+}
