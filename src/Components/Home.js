@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/logo2.png";
 import CardComponent from "./CardComponent";
 import "./Home.css";
